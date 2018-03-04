@@ -40,8 +40,7 @@ class aiPotaTemplate(templates.AttributeTemplate):
         self.addControl("aiProperRayDerivatives", label="Proper Ray Derivatives")
         
         self.endLayout()
-        
-        """
+
         self.addSeparator()
         self.addSeparator()
         self.addSeparator()
@@ -54,7 +53,6 @@ class aiPotaTemplate(templates.AttributeTemplate):
         self.addControl("aiMinimumRgb", label="Minimum RGB")
         self.addCustom("aiBokehEXRPath", self.filenameNewBokeh, self.filenameReplaceBokeh)
         self.endLayout()
-        """
 
 
 

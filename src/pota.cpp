@@ -23,6 +23,9 @@ enum
     p_minimum_rgb,
     p_bokeh_exr_path,
     p_proper_ray_derivatives
+    p_backward_samples,
+    p_minimum_rgb,
+    p_bokeh_exr_path
 };
 
 
